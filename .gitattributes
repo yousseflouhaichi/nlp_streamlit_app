@@ -1,0 +1,3 @@
+models/finetuned_gpt2/pytorch_model.bin filter=lfs diff=lfs merge=lfs -text
+models/trans_model_ar/pytorch_model.bin filter=lfs diff=lfs merge=lfs -text
+models/trans_model_fr/pytorch_model.bin filter=lfs diff=lfs merge=lfs -text
