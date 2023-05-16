@@ -7,6 +7,19 @@ from transformers import GPT2LMHeadModel, GPT2Tokenizer, AutoTokenizer, AutoMode
 
 # Configure Streamlit page and state
 st.set_page_config(page_title="LinguaLand", page_icon=":pencil2:")
+
+# Remove anchor links
+def hide_anchor_link():
+    st.markdown("""
+        <style>
+        .css-15zrgzn {display: none}
+        .css-eczf16 {display: none}
+        .css-jn99sy {display: none}
+        </style>
+        """, unsafe_allow_html=True)
+
+hide_anchor_link()
+
 st.markdown("<h1 style='text-align: center; color: #31333F; font-size: 60px;'>LinguaLand</h1>", unsafe_allow_html=True)
 st.markdown("<h6 style='text-align: center; color: #31333F; font-size: 15px; font-style: italic'>Enhanced Text Generator ✒️</h6>", unsafe_allow_html=True)
 
