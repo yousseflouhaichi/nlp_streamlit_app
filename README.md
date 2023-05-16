@@ -3,7 +3,7 @@ LinguaLand - Streamlit application for an NLP project
 <hr>
 
 <p align="center">
-  <img src="images/app_demo.PNG" alt="App Demo">
+  <img src="images/app_demo.png" alt="App Demo">
 </p>
 
 <hr>
